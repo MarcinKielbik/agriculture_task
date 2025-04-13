@@ -1,3 +1,8 @@
+# You are given a 2D binary matrix filled with 0s and 1s representing a rectangular field.
+# Each 1 indicates a valid unit of land that can be cultivated.
+# Your task is to find the largest square (with all sides equal)
+# consisting only of 1s and return the area of that square.
+
 def maximal_square(matrix):
     if not matrix or not matrix[0]:
         return 0
